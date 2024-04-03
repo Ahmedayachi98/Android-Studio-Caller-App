@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".Accueil">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="100dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Welcome"
+        android:textAlignment="center"
+        android:textColor="#EDEBEB"
+        android:textSize="36sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/btn_ajout"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Ajouter"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_affich"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Afficher"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_decon"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Deconnecter"
+        android:textColor="#E91E63" />
+
+</LinearLayout>

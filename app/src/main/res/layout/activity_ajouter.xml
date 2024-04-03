@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nom"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context=".Ajouter">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="50dp"
+        android:text="Ajouter"
+        android:textAlignment="center"
+        android:textColor="#E3E0E0"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/ednom_ajout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Saisir Votre Nom"
+        android:inputType="text"
+        android:textColor="#F3F1F1"
+
+        android:textColorHint="#BCB8B8" />
+
+    <EditText
+        android:id="@+id/edprenom_ajout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Saisir Votre prenom"
+        android:inputType="textEmailAddress"
+        android:textColor="#EAE5E5"
+        android:textColorHint="#BCB8B8" />
+
+    <EditText
+        android:id="@+id/ednumero_ajout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Numero"
+        android:inputType="phone"
+        android:textColor="#F4EDED"
+        android:textColorHint="#BCB8B8" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnback_add"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="Annuler" />
+
+        <Button
+            android:id="@+id/btnsave_add"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Ajouter" />
+
+    </LinearLayout>
+
+</LinearLayout>
